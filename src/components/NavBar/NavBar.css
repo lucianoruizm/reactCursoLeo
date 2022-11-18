@@ -1,0 +1,7 @@
+.navbar{
+    background-color: blueviolet;
+}
+.categorias{
+    display: flex;
+    justify-content: space-between;
+}
