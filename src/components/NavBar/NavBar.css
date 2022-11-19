@@ -1,7 +1,16 @@
 .navbar{
-    background-color: blueviolet;
+    color: white;
 }
-.categorias{
+/* .categorias{
     display: flex;
     justify-content: space-between;
+    margin: 0 20px;
+    padding: 20px;
+    list-style: none;
 }
+li{
+    cursor: pointer;
+}
+li:hover {
+    color: white;
+} */ 
