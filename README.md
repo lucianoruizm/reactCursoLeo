@@ -1,3 +1,8 @@
+Links:
+Boostrap instalado en la carpeta public--> index.html
+https://react-icons.github.io/react-icons/
+Para instalar ---> npm install react-icons --save
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
