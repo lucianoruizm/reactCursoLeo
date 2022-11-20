@@ -1,7 +1,8 @@
+import './ItemListContainer.css'
 
 const ItemListContainer = (props) => {
   return (
-      <div>Este es: {props.name}</div>
+      <div className="item-list">Este es: {props.name}</div>
   )
 }
 
