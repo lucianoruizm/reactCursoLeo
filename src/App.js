@@ -6,12 +6,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ul>
-        <li><ItemListContainer name={'item 1'}/></li>
-        <li><ItemListContainer name={'item 2'} /></li>
-        <li><ItemListContainer name={'item 3'} /></li>
-        <li><ItemListContainer name={'item 4'} /></li>
-      </ul>
+      <ItemListContainer greeting={'Greeting'} />
     </div>
   );
 }

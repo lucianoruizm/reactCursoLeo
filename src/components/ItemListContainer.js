@@ -1,8 +1,8 @@
 import './ItemListContainer.css'
 
-const ItemListContainer = ({name}) => {
+const ItemListContainer = ({ greeting }) => {
   return (
-      <div className="item-list">Este es: {name}</div>
+      <div className="item-list">{greeting}</div>
   )
 }
 
