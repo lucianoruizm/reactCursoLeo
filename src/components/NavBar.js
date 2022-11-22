@@ -1,6 +1,9 @@
 import './NavBar.css'
 import CartWidget from './CartWidget'
 
+// Se le importa el estilo desde NavBar.css.
+// NavBar contiene el nombre del proyecto, la lista de secciones y el componente CardWidget que fue importado.
+// Se importa para que pueda usarse en App. 
 const NavBar = () => {
     return (
       <nav className="navbar navbar-expand-lg bg-primary">

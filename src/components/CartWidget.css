@@ -4,6 +4,7 @@
     padding: 0 50px;
     gap: 1px;
     position: relative;
+    cursor: pointer;
 }
 
 .cart-icon {
