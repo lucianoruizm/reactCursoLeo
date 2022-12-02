@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
       <nav className="navbar navbar-expand-lg bg-primary">
         <div className="container-fluid">
-          <a className="navbar-brand color-name" href="!#">Nombre del proyecto</a>
+          <a className="navbar-brand color-name" href="/">Nombre del proyecto</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -18,10 +18,13 @@ const NavBar = () => {
                 <a className="nav-link color-link" aria-current="page" href="!#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link color-link" href="!#">Sección 1</a>
+                <a className="nav-link color-link" href="!#">Categoría 1</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link color-link" href="!#">Sección 2</a>
+                <a className="nav-link color-link" href="!#">Categoría 2</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link color-link" href="!#">Categoría 3</a>
               </li>
             </ul>
           </div>
