@@ -14,15 +14,18 @@ function App() {
   const movies = [
     {
       id: 1,
-      title: "Minions"
+      title: "Minions",
+      category: "Accion"
     },
     {
       id: 2,
-      title: "Minions2"
+      title: "Minions2",
+      category: "Terror"
     },
     {
       id: 3,
-      title: "Minions3"
+      title: "Minions3",
+      category: "Suspenso"
     },
   ]
 
@@ -32,6 +35,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer movies={movies} />} />
+          <Route path="/category/:id" element={<ItemListContainer movies={movies} />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
         </Routes>
       </Router>
