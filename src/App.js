@@ -15,17 +15,20 @@ function App() {
     {
       id: 1,
       title: "Minions",
+      image: "http://image.tmdb.org/t/p/w500/vlOgaxUiMOA8sPDG9n3VhQabnEi.jpg",
       category: "Accion"
     },
     {
       id: 2,
       title: "Minions2",
-      category: "Terror"
+      category: "Terror",
+      image: "http://image.tmdb.org/t/p/w500/vlOgaxUiMOA8sPDG9n3VhQabnEi.jpg",
     },
     {
       id: 3,
       title: "Minions3",
-      category: "Suspenso"
+      category: "Suspenso",
+      image: "http://image.tmdb.org/t/p/w500/vlOgaxUiMOA8sPDG9n3VhQabnEi.jpg",
     },
   ]
 
