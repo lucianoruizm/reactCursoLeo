@@ -8,7 +8,7 @@ export const ItemList = ({movies}) => {
         {movies.map((movie)=>{ 
         let {id, title} = movie;
         return(
-            <Item id={id} title={title} />
+            <Item key={id} id={id} title={title} />
         )
         })}
     </div>
