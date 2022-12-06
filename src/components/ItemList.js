@@ -4,6 +4,7 @@ import './ItemList.css';
 // Tiene importado el compenente Item al cual le pasa las props.
 
 export const ItemList = ({movies}) => {
+
   return (
     <div className="moviesGrid">
         {movies.map((movie)=>{ 
